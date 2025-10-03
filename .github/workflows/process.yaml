@@ -10,7 +10,7 @@ env:
   TZ: Asia/Shanghai
 
   # network proxy aggregate config
-  SUBSCRIBE_CONF: ${{ secrets.SUBSCRIBE_CONF }}
+  SUBSCRIBE_CONF: https://blog.yusialone.top/file/crawl.json
 
   # token
   PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
