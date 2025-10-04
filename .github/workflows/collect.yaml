@@ -67,7 +67,7 @@ jobs:
           fi
 
       - name: Collect
-        run: python -u subscribe/collect.py --all --overwrite --skip -p 35 -f 200 -l 200 -d 2000 -t clash v2ray --chuck  
+        run: python -u subscribe/collect.py --all --overwrite --skip -f 200 -l 200  -t clash v2ray --chuck  
 
       - name: Timestamp
         run: date
